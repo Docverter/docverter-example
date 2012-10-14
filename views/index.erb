@@ -1,0 +1,13 @@
+<div class="row">
+  <div class="span12">
+    <p>
+      This is an example project that uses the <a href="http://www.docverter.com/api.html">Docverter API</a> to render PDFs from Markdown that resides in a Github repository.
+    </p>
+    <p>
+      This instance is configured to read files from the repository <code><%= ENV['GITHUB_REPO'] %></code>. To download a PDF of a particular file, use a URL like this:
+      <pre><code>
+<%= request.base_url %>/&lt;file_path&rt;
+      </pre></code>
+    </p>
+  </div>
+</div>

@@ -1,0 +1,22 @@
+body {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+.hero-unit {
+  background-image: url("/document-open.png");
+  background-repeat: no-repeat;
+  background-size: 300px;
+  background-position: 42em;
+}
+.hero-unit p {
+  width: 30em;
+}
+
+.hero-small {
+  background-size: 150px;
+  background-position: 52em;
+}
+
+code {
+  color: black;
+}

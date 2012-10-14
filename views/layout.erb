@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang=en>
+  <head>
+    <meta charset="utf-8">
+    <title>Docverter Example</title>
+    <link href="/bootstrap.min.css" rel="stylesheet">
+    <link href="/main.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link rel="apple-touch-icon" href="bugsplat-2.png">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" type="image/png" href="/favicon.png" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+
+    <script src="/highlight.pack.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="/github.css">
+
+  </head>
+  <body>
+
+    <div class="container">
+	  <div id="content">
+        <%= yield %>
+	  </div>
+      <hr>
+      <footer>
+        <div class="pull-right">
+          Powered by <a href="http://www.docverter.com">Docverter</a>
+        </div>
+        <p>&copy; Docverter 2012</p>
+      </footer>
+	</div>
+  </body>
+</html>
